@@ -1,0 +1,23 @@
+-[UIPeripheralHost setInputViews:]
+-[UIKeyboardImpl updateLayout]
+-[UIKeyboardImpl callLayoutUpdateLocalizedKeys]
+-[UIKeyboardLayoutStar initWithFrame:]
+
+UIKBDrawKeyboardBackground(CGContextRef c, something...);
+CGColorRef UIKBGetNamedColor(CFStringRef colorName);
+UIKBColorDefLookup(chat *)
+CGColorRef UIKBColorCreate(int r, int g, int b);
+void UIKBAddRoundedRect(CGContextRef c);
+CGGradient UIKBGetNamedLinearGradient(NSString *gradientName);
+void UIKBDrawLinearGradient(CGContextRef c, CGGradientRef g);
+void UIKBDrawKey(CGContextRef c, UIKBKeyboard *keyboard, UIKBKey *key, int);
+void UIKBDrawStringKey(CGContextRef c, UIKBKeyboard *keyboard, UIKBKey *key, int);
+void UIKBDrawStringKey_iPhone(CGContextRef c, UIKBKeyboard *keyboard, UIKBKey *key, int);
+void UIKBDrawRoundRectKeyBackground(CGContextRef c, UIKBKeyboard *keyboard, UIKBKey *key, int);
+void UIKBDrawRoundRectKeyBackground_iPhone(CGContextRef c, UIKBKeyboard *keyboard, UIKBKey *key, int);
+void *UIKBThemeCreate(UIKBKeyboard *keyboard, UIKBKey *key);
+UIKBThemeInit_iPhone
+CGGradientRef UIKBThemeGetForegroundGradient(UIKBThemeRef theme)
+uint32_t UIKBScale() == 0x4000 0000
+void *UIKBDrawEtchedSymbolString(CGContextRef context, NSString *string);
+void UIKBKeyboardDrawOverlay(CGContextRef context);

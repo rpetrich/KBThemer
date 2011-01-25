@@ -1,0 +1,9 @@
+Package: com.rpetrich.kbthemer
+Priority: optional
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 0.1
+Description: Theme the keyboard
+Name: KBThemer
+Depends: firmware (>= 4.0), mobilesubstrate
+Author: Ryan Petrich <rpetrich+kbthemer@gmail.com>
